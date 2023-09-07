@@ -22,7 +22,7 @@ body {
 .firstContainer, .secondContainer, .thirdContainer {
    display:flex;
    flex-direction:column;
-   background-color:gray;
+   background-color:lightgray;
    border:2px solid black;
    width:79%;
    padding:10px 10px;
