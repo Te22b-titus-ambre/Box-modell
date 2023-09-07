@@ -1,0 +1,33 @@
+body {
+    background-image: url(./showcase.jpg);
+    background-repeat:no-repeat;
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+.header {
+    font-family:'Roboto Mono', monospace;
+    background-color: yellow;
+    color: blue;
+    text-align:center;
+}
+.mainContainer{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  gap:15px;
+}
+
+.firstContainer, .secondContainer, .thirdContainer {
+   display:flex;
+   flex-direction:column;
+   background-color:gray;
+   border:2px solid black;
+   width:79%;
+   padding:10px 10px;
+
+}
+h2{
+    text-align: center;
+}
